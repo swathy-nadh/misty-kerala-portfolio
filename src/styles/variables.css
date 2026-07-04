@@ -1,0 +1,28 @@
+:root {
+  /* ---------- Colors ---------- */
+
+  --forest: #1f3a2e;
+  --moss: #486b4a;
+  --tea: #708c69;
+  --mist: #f4f6f2;
+  --earth: #2d2b28;
+  --sun: #c49a5a;
+
+  /* ---------- Typography ---------- */
+
+  --font-heading: "Cormorant Garamond", serif;
+  --font-body: "Inter", sans-serif;
+
+  /* ---------- Radius ---------- */
+
+  --radius-lg: 20px;
+  --radius-xl: 32px;
+
+  /* ---------- Shadows ---------- */
+
+  --shadow-soft: 0 8px 30px rgba(0,0,0,.08);
+
+  /* ---------- Max Width ---------- */
+
+  --container: 1200px;
+}
