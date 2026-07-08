@@ -34,3 +34,21 @@
 - Create atmospheric mist and mountain backgrounds.
 - Replace the emoji leaf with a custom animated SVG.
 - Implement SVG handwriting animation for the name.
+
+## Hero Animation
+
+### What I Built
+- Added Framer Motion to the project.
+- Animated the Hero content with staggered entrance effects.
+- Created the first animated scroll indicator.
+
+### What I Learned
+- `motion` components
+- `initial`
+- `animate`
+- `transition`
+- Animation delays
+- Infinite animations
+
+### Reflection
+The first leaf animation works technically, but it feels mechanical. I plan to replace the emoji with a custom SVG and create a more natural drifting motion.
