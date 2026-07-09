@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import Leaf from "../../effects/Leaf/Leaf";
 function ScrollIndicator() {
   return (
     <div className="mt-24 flex flex-col items-center gap-3">
@@ -15,7 +16,10 @@ function ScrollIndicator() {
               }}
               className="text-2xl"  
         >
-                🍃
+                <div className="mb-2">
+                  <Leaf />
+                </div>
+                
         </motion.div>
       </div>
 

@@ -1,11 +1,24 @@
 import Container from "../../ui/Container/Container";
+import Hills  from "../../effects/Hills/Hills.jsx";
 import ScrollIndicator from "../../ui/ScrollIndicator/ScrollIndicator.jsx";
+import Mist from "../../effects/Mist/Mist";
 import { motion } from "framer-motion";
 function Hero() {
   return (
-    <section className="min-h-screen flex items-center justify-center">
+    <section
+      className="
+        relative
+        min-h-screen
+        overflow-hidden
+        flex
+        items-center
+        justify-center
+      "
+    >
+      <Mist />
+      <Hills />
       <Container>
-        <div className="mx-auto max-w-4xl text-center">
+        <div className="relative z-10 mx-auto max-w-4xl text-center">
 
          <motion.p
             initial={{ opacity: 0, y: -20 }}
@@ -61,7 +74,7 @@ function Hero() {
                   }}
                   className="mx-auto mt-10 max-w-xl text-xl leading-9 text-[var(--earth)]"
           >
-              Building thoughtful software inspired by the calm of Kerala.
+              Less noise. Better software
           </motion.p>
 
           <ScrollIndicator />
