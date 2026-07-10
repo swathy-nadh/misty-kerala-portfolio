@@ -1,28 +1,79 @@
+
+/* ---------- Colors ---------- */
+
 :root {
-  /* ---------- Colors ---------- */
+  --color-background: #07090f;
+  --color-surface: #111827;
+  --color-surface-light: #1b263b;
 
-  --forest: #1f3a2e;
-  --moss: #486b4a;
-  --tea: #708c69;
-  --mist: #f4f6f2;
-  --earth: #2d2b28;
-  --sun: #c49a5a;
+  --color-text: #f8f6f1;
+  --color-text-muted: #b8b6b0;
 
-  /* ---------- Typography ---------- */
+  --color-gold: #d4af37;
+  --color-gold-light: #f4d35e;
 
-  --font-heading: "Cormorant Garamond", serif;
-  --font-body: "Inter", sans-serif;
+  --color-blue: #7dd3fc;
+  --color-purple: #9d4edd;
+  --color-emerald: #50c878;
 
-  /* ---------- Radius ---------- */
+  --color-danger: #dc2626;
 
-  --radius-lg: 20px;
-  --radius-xl: 32px;
+  --color-paper: #f8f1dd;
 
   /* ---------- Shadows ---------- */
 
-  --shadow-soft: 0 8px 30px rgba(0,0,0,.08);
+  --shadow-sm: 0 2px 8px rgba(0,0,0,.15);
 
-  /* ---------- Max Width ---------- */
+  --shadow-md: 0 8px 20px rgba(0,0,0,.25);
 
-  --container: 1200px;
+  --shadow-lg: 0 18px 40px rgba(0,0,0,.45);
+
+  /* ---------- Glow ---------- */
+
+  --glow-gold:
+    0 0 8px rgba(212,175,55,.4),
+    0 0 18px rgba(212,175,55,.25);
+
+  --glow-blue:
+    0 0 8px rgba(125,211,252,.45),
+    0 0 20px rgba(125,211,252,.25);
+
+  --glow-purple:
+    0 0 10px rgba(157,78,221,.45),
+    0 0 20px rgba(157,78,221,.3);
+
+  /* ---------- Border Radius ---------- */
+
+  --radius-sm: .5rem;
+  --radius-md: .8rem;
+  --radius-lg: 1.2rem;
+  --radius-xl: 2rem;
+
+  /* ---------- Layout ---------- */
+
+  --container-width: 1200px;
+
+  --section-spacing: 8rem;
+
+  /* ---------- Blur ---------- */
+
+  --blur-sm: 6px;
+  --blur-md: 12px;
+  --blur-lg: 20px;
+
+  /* ---------- Animation ---------- */
+
+  --transition-fast: .25s ease;
+
+  --transition-normal: .45s ease;
+
+  --transition-slow: .8s ease;
+
+  /* ---------- Z Index ---------- */
+
+  --z-background: -1;
+  --z-default: 1;
+  --z-header: 100;
+  --z-overlay: 500;
+  --z-modal: 1000;
 }
